@@ -1,15 +1,15 @@
 {
     "manifest_version": 1,
-    "version": "0.1.0",
+    "version": "1.0.0",
     "type": "APP",
     "name": {
-        "en": "General-Purpose JSON Config Plugin",
-        "ja": "汎用J型設定プラグイン"
+        "en": "DummyPlug Plug-in",
+        "ja": "ダミープラグ"
     },
-    "icon": "image/camet.png",
+    "icon": "image/dummyplug_128.png",
     "description": {
-        "en": "General-Purpose JSON Config Plugin for kintone",
-        "ja": "kintone汎用J型設定プラグイン"
+        "en": "DummyPlug Plug-in for kintone",
+        "ja": "kintoneダミープラグ"
     },
     "homepage_url": {
         "ja": "https://www.monosus.co.jp/solutions/web-digital/dx/kintanlab",

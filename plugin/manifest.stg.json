@@ -3,13 +3,13 @@
     "version": "0.1.0",
     "type": "APP",
     "name": {
-        "en": "[staging] General-Purpose JSON Config Plugin",
-        "ja": "[staging] 汎用J型設定プラグイン"
+        "en": "[staging] DummyPlug Plug-in",
+        "ja": "[staging] ダミープラグ"
     },
-    "icon": "image/camet.png",
+    "icon": "image/dummyplug_128.png",
     "description": {
-        "en": "[staging] It is a staging build.",
-        "ja": "[staging] 開発用です。本番環境には適用しないでください。"
+        "en": "[staging] DummyPlug Plug-in (staging build)",
+        "ja": "[staging] ダミープラグ（開発用）"
     },
     "homepage_url": {
         "ja": "https://www.monosus.co.jp/solutions/web-digital/dx/kintanlab",

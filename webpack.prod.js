@@ -4,6 +4,11 @@ const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const StatsPlugin = require("stats-webpack-plugin");
 
+// マニフェストからバージョンを取得
+const manifest = require("./plugin/manifest.prod.json");
+const version = manifest.version;
+const pluginZipName = `kintonePlugin-DummyPlug-v${version}.zip`;
+
 // [定数] webpack の出力オプションを指定します
 // 'production' か 'development' を指定
 const MODE = "production";
@@ -70,7 +75,7 @@ module.exports = {
         new KintonePlugin({
             manifestJSONPath: "./plugin/manifest.json",
             privateKeyPath: "./private_prod.ppk",
-            pluginZipPath: "./dist/GPJsonSettingPlugin.zip",
+            pluginZipPath: `./dist/${pluginZipName}`,
         }),
         new ForkTsCheckerWebpackPlugin(),
         new TerserPlugin({
