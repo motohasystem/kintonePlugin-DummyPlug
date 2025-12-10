@@ -11,11 +11,11 @@ export class Settings {
 
     static input: KintoneConfigSetting = [
         ///////////////////////////////
-        // 汎用設定を構築する
+        // 設定
         ///////////////////////////////
         {
-            'label': '汎用設定を構築する'
-            , 'desc': 'プラグインのタイトルと、設定JSONを登録してください。'
+            'label': '設定'
+            , 'desc': 'プラグインのタイトルとJSONを登録してください。'
             , 'type': FieldType.Label
         }
         , {

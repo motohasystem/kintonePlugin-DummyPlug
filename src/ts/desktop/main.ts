@@ -25,6 +25,7 @@ PLUGIN_ID: [ ${PLUGIN_ID} ]
         const conf = kintone.plugin.app.getConfig("${PLUGIN_ID}")
         const settingData = JSON.parse(conf["config"]);
         const settingJson = JSON.parse(settingData["field_setting_data"]);
+        console.log({settingJson})
 `;
 
     console.info(message);

@@ -8,8 +8,8 @@
     },
     "icon": "image/dummyplug_128.png",
     "description": {
-        "en": "DummyPlug Plug-in for kintone",
-        "ja": "kintoneダミープラグ"
+        "en": "Headless plug-in with only configuration screen. Please use it in combination with JavaScript customization.",
+        "ja": "ヘッドレスで設定画面だけを持ちます。JavaScriptカスタマイズと組み合わせてお使いください。"
     },
     "homepage_url": {
         "ja": "https://www.monosus.co.jp/solutions/web-digital/dx/kintanlab",
